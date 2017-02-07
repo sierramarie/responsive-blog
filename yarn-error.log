@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/bin/node /Users/sierra/.yarn/bin/yarn.js install
+
+PATH: 
+  /Users/sierra/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  6.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "d1-use-gulp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {},
+    "license": "MIT",
+  
+    "scripts": {
+    "start": "serve -p 8080",
+    "gulp": "gulp serve"
+  },
+    
+    "dependencies": {
+      "browser-sync": "^2.18.7",
+      "css": "^2.2.1",
+      "gulp": "^3.9.1",
+      "gulp-sass": "^3.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, open '/Users/sierra/Library/Caches/Yarn/npm-source-map-resolve-0.3.1-610f6122a445b8dd51535a2a71b783dfc1248761/package.json'
+      at Error (native)
